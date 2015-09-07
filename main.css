@@ -1,0 +1,291 @@
+.nav a {main
+  color: #5a5a5a;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+}
+
+.nav li {
+  display: inline;
+  position: relative;
+}
+.nav ul{
+  display: inline;
+
+}
+body{
+
+padding-top: 30px;
+}
+.jumbotron {
+  background-image:url('http://goo.gl/04j7Nn');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron .container {
+  position: relative;
+  top:100px;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 48px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color: #fff;
+}
+
+.learn-more {
+  background-color: #f7f7f7;
+}
+
+.learn-more h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.learn-more a {
+  color: #00b0ff;
+}
+
+.neighborhood-guides{
+    background-color: #efefef;
+    border-bottom:1px solid #dbdbdb;
+    
+    
+}
+
+.neighborhood-guides h2{
+   color: #393c3d;
+    font-size:24px;
+    
+    
+}
+.neighborhood-guides p{
+   
+    font-size:15px;
+    margin-bottom:13px;
+    
+}
+
+.relCourses{
+
+  background-color: #66ccff;
+padding-left: 10%;
+padding-right: 10%;
+margin-right: 10%;
+margin-left: 10%;
+
+
+}
+.relExp{
+background-color: #66ccff;
+padding-left: 10%;
+padding-right: 10%;
+margin-right: 10%;
+margin-left: 10%;
+
+}
+.engProj{
+
+  background-color: #66cc00;
+padding-left: 10%;
+padding-right: 10%;
+margin-right: 10%;
+margin-left: 10%;
+}
+  
+.leadAct{
+  background-color: #6600ff;
+padding-left: 10%;
+padding-right: 10%;
+margin-right: 10%;
+margin-left: 10%;
+}
+.skills{
+ background-color: #00ccff;
+padding-left: 10%;
+padding-right: 10%;
+margin-right: 10%;
+margin-left: 10%;
+}
+.education{
+  background-color: #66ffff;
+padding-left: 10%;
+padding-right: 10%;
+margin-right: 10%;
+margin-left: 10%;
+  
+}
+.contactDetails{
+background-color: #ffccff;
+padding-left: 10%;
+padding-right: 10%;
+margin-right: 10%;
+margin-left: 10%;
+
+}
+.navlist {
+  float: left;
+  margin-right: 5%;
+  margin-top: 14px;
+  margin-bottom: 5px;
+
+}
+.jheader {
+  margin-top: 0px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  background-color: #bbeeff;
+}
+.row{
+
+  text-align: center;
+
+}
+#projectsheader{
+  text-align: center;
+}
+#contactDetails{
+  text-align: center;
+}
+.subcontent{
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+
+}
+#aboutme{
+  text-align: center;
+}
+body{
+          background-color: #777788;
+      }
+      img{
+        max-width: 100%;
+        max-height: 100%;
+      }
+      .proj_pic{
+        width: 30%;
+        height: 100%;
+        background-color: red;
+        float: left;
+        
+      }
+      .im_wrapper{
+        
+
+      }
+      .proj_txt{
+        position: relative;
+        background-color: yellow;
+        width: 70%;
+        float: left;
+      }
+      .carousel{
+          background: #2f4357;
+          margin-top: 20px;
+      }
+      .carousel .item img{
+          margin: 0 auto; /* Align slide image horizontally center */
+      }
+      .bs-example{
+        margin: 20px;
+      }
+      .content_exp{
+          width: 70%;
+          color: white;
+          margin: 0 auto;
+          margin-bottom: 60px;
+          position: relative;
+      }
+      .carousel-indicators{
+         bottom:0px; 
+      }
+      .exp_title{
+          color:white;
+          font-size: 3.0vmax;
+      }
+      .exp_posn{
+          font-size: 2.0vmax
+      }
+      p{
+          font-size: 1vmax;
+      }
+      .carousel{
+        /* height: 40vh; */
+        height: 300px;
+      }
+
+      @media all and (max-width: 650px) and (min-width: 350px){
+
+        .carousel{
+          height: 450px;
+
+        }
+        .content_exp{
+          width: 70%;
+          color: white;
+          margin: 0 auto;
+          margin-bottom: 60px;
+      }
+      .exp_title{
+          color:white;
+          font-size: 4.0vmax;
+      }
+      .exp_posn{
+          font-size: 3.0vmax
+      }
+      p{
+          font-size: 2vmax;
+      }
+}
+
+@media all and (max-width: 349px) and (min-width: 50px){
+
+        .carousel{
+          height: 550px;
+
+        }
+        .content_exp{
+          width: 70%;
+          color: white;
+          margin: 0 auto;
+          margin-bottom: 60px;
+      }
+      .exp_title{
+          color:white;
+          font-size: 5.0vmax;
+      }
+      .exp_posn{
+          font-size: 4.0vmax
+      }
+      p{
+          font-size: 3vmax;
+      }
+}
+.navj{
+  margin: 0 auto;
+  float:none;
+}
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+nav{
+  margin-bottom: 100px;
+}

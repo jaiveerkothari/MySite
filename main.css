@@ -290,3 +290,14 @@ body{
 nav{
   margin-bottom: 100px;
 }
+#contactDetails p a{
+    color: inherit; 
+    text-decoration: none;
+}
+#myCarousel2{
+
+  height: 450px;
+}
+#myCarousel{
+  height: 370px;
+}
